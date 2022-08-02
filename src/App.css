@@ -36,13 +36,13 @@ main {
 }
 
 .container-principal-form{
-	box-flex: 3;
+	display: box;
 	height:700px;
 	background:#FFFFFF;
 	color: #000000;
 }
 .form-cria-login, form-dadas-pessoais{
-	display: flex-start;
+	
 }
 .container-cria-login{
 	
@@ -51,17 +51,24 @@ main {
 	
 }
 
+.campo-emal{
+	width: 400px;
+}
+
+.container-cria-login, .container-dados-pessoais {
+	weight:500px;
+	font-size:25px;
+}
 .container-dados-pessoais{
 	
 	background:#FFFFFF;
 	margin:-8px;
-	height:50%;
 	padding: 3px;
 }
 
 form input {
 	background: #D9D9D9;
-	height: 81px;
+	height: 71px;
 	border-radius:10px;
 	margin: 4px;
 
@@ -72,7 +79,7 @@ form input {
 #btn-proximo .botao {
 	position: right;
 	width:250px;
-	height: 71px;
+	height: 61px;
 	background: #FF6A0E;
 	border-radius: 10px;
 	text-align: center;

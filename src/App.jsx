@@ -33,11 +33,11 @@ function App() {
 				</div>
 				
 			</div>
-			
+			<div id="btn-proximo">
+				<input className="botao" type="submit" name="tProximo" ></input>
+			</div>
 		</div>
-		<div id="btn-proximo">
-			<input className="botao" type="submit" name="tProximo" ></input>
-		</div>
+		
     </main>
   );
 }
